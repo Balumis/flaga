@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+<head>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align:center">{{hero}}</h1>
+    <h1 style="text-align:center">{{hero2}}</h1>
+    <h1 style="text-align:center">{{hero3}}</h1>
+    <br>
+    <br>
+    {% for super_hero in super_heroes %}
+      <p>{{super_hero}}</p>
+    {% endfor %}
+    <br>
+    {% for lines in poem_lines %}
+      <p>{{lines}}</p>
+    {% endfor %}
+</body>
+
+</html>
